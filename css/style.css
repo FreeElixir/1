@@ -553,7 +553,15 @@ footer span a:hover{
 
 
 /* responsive media query start */
-@media (max-width: 1104px) {
+@media (max-width: 1104px) {   
+    .home{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    background-color: #111;
+    background-image: none;
+    font-family: 'Ubuntu', sans-serif;
+}
     .about .about-content .left img{
         height: 350px;
         width: 350px;
