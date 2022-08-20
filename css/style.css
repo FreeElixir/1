@@ -214,6 +214,10 @@ section .title::after{
 }
 
 /* about section styling */
+.about
+{
+    background-color: #fff;
+}
 .about .title::after{
     content: "who we are";
 }
