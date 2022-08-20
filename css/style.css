@@ -177,7 +177,7 @@ section .title::after{
 }
 
 .introLogo{
-    width: 20vw;
+    width: 70vw;
     height: auto;
 }
 
@@ -583,7 +583,8 @@ footer span a:hover{
 
 
 /* responsive media query start */
-@media (max-width: 1104px) {   
+@media (max-width: 1104px) 
+{  
     .home{
     display: flex;
     height: 100vh;
